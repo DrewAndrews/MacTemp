@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6800E3BC26C659D800BAC206 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6800E3BB26C659D800BAC206 /* AppDelegate.m */; };
+		6800E3BF26C659D800BAC206 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6800E3BE26C659D800BAC206 /* ViewController.m */; };
+		6800E3C126C659DF00BAC206 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6800E3C026C659DF00BAC206 /* Assets.xcassets */; };
+		6800E3C426C659DF00BAC206 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6800E3C226C659DF00BAC206 /* Main.storyboard */; };
+		6800E3C726C659DF00BAC206 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6800E3C626C659DF00BAC206 /* main.m */; };
+		6800E3D126C65A1F00BAC206 /* smc.c in Sources */ = {isa = PBXBuildFile; fileRef = 6800E3D026C65A1F00BAC206 /* smc.c */; };
+		6800E3D526C65A7200BAC206 /* CPUTempManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6800E3D426C65A7200BAC206 /* CPUTempManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6800E3B726C659D800BAC206 /* MacTemp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacTemp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6800E3BA26C659D800BAC206 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6800E3BB26C659D800BAC206 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6800E3BD26C659D800BAC206 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6800E3BE26C659D800BAC206 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6800E3C026C659DF00BAC206 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6800E3C326C659DF00BAC206 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6800E3C526C659DF00BAC206 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6800E3C626C659DF00BAC206 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6800E3C826C659DF00BAC206 /* MacTemp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacTemp.entitlements; sourceTree = "<group>"; };
+		6800E3CF26C65A1F00BAC206 /* smc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = smc.h; sourceTree = "<group>"; };
+		6800E3D026C65A1F00BAC206 /* smc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = smc.c; sourceTree = "<group>"; };
+		6800E3D326C65A7200BAC206 /* CPUTempManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPUTempManager.h; sourceTree = "<group>"; };
+		6800E3D426C65A7200BAC206 /* CPUTempManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPUTempManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6800E3B426C659D800BAC206 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6800E3AE26C659D800BAC206 = {
+			isa = PBXGroup;
+			children = (
+				6800E3B926C659D800BAC206 /* MacTemp */,
+				6800E3B826C659D800BAC206 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6800E3B826C659D800BAC206 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6800E3B726C659D800BAC206 /* MacTemp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6800E3B926C659D800BAC206 /* MacTemp */ = {
+			isa = PBXGroup;
+			children = (
+				6800E3CE26C659EB00BAC206 /* Hardware */,
+				6800E3D226C65A4800BAC206 /* Supporting Files */,
+				6800E3BA26C659D800BAC206 /* AppDelegate.h */,
+				6800E3BB26C659D800BAC206 /* AppDelegate.m */,
+				6800E3BD26C659D800BAC206 /* ViewController.h */,
+				6800E3BE26C659D800BAC206 /* ViewController.m */,
+				6800E3C026C659DF00BAC206 /* Assets.xcassets */,
+				6800E3C226C659DF00BAC206 /* Main.storyboard */,
+				6800E3C526C659DF00BAC206 /* Info.plist */,
+				6800E3C626C659DF00BAC206 /* main.m */,
+				6800E3C826C659DF00BAC206 /* MacTemp.entitlements */,
+			);
+			path = MacTemp;
+			sourceTree = "<group>";
+		};
+		6800E3CE26C659EB00BAC206 /* Hardware */ = {
+			isa = PBXGroup;
+			children = (
+				6800E3D026C65A1F00BAC206 /* smc.c */,
+				6800E3CF26C65A1F00BAC206 /* smc.h */,
+			);
+			path = Hardware;
+			sourceTree = "<group>";
+		};
+		6800E3D226C65A4800BAC206 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6800E3D326C65A7200BAC206 /* CPUTempManager.h */,
+				6800E3D426C65A7200BAC206 /* CPUTempManager.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6800E3B626C659D800BAC206 /* MacTemp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6800E3CB26C659DF00BAC206 /* Build configuration list for PBXNativeTarget "MacTemp" */;
+			buildPhases = (
+				6800E3B326C659D800BAC206 /* Sources */,
+				6800E3B426C659D800BAC206 /* Frameworks */,
+				6800E3B526C659D800BAC206 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacTemp;
+			productName = MacTemp;
+			productReference = 6800E3B726C659D800BAC206 /* MacTemp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6800E3AF26C659D800BAC206 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					6800E3B626C659D800BAC206 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 6800E3B226C659D800BAC206 /* Build configuration list for PBXProject "MacTemp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6800E3AE26C659D800BAC206;
+			productRefGroup = 6800E3B826C659D800BAC206 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6800E3B626C659D800BAC206 /* MacTemp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6800E3B526C659D800BAC206 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6800E3C126C659DF00BAC206 /* Assets.xcassets in Resources */,
+				6800E3C426C659DF00BAC206 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6800E3B326C659D800BAC206 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6800E3BF26C659D800BAC206 /* ViewController.m in Sources */,
+				6800E3D126C65A1F00BAC206 /* smc.c in Sources */,
+				6800E3D526C65A7200BAC206 /* CPUTempManager.m in Sources */,
+				6800E3C726C659DF00BAC206 /* main.m in Sources */,
+				6800E3BC26C659D800BAC206 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6800E3C226C659DF00BAC206 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6800E3C326C659DF00BAC206 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6800E3C926C659DF00BAC206 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6800E3CA26C659DF00BAC206 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6800E3CC26C659DF00BAC206 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MacTemp/MacTemp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6B8USNFRGW;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = MacTemp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Rusinovich.MacTemp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6800E3CD26C659DF00BAC206 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MacTemp/MacTemp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6B8USNFRGW;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = MacTemp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Rusinovich.MacTemp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6800E3B226C659D800BAC206 /* Build configuration list for PBXProject "MacTemp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6800E3C926C659DF00BAC206 /* Debug */,
+				6800E3CA26C659DF00BAC206 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6800E3CB26C659DF00BAC206 /* Build configuration list for PBXNativeTarget "MacTemp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6800E3CC26C659DF00BAC206 /* Debug */,
+				6800E3CD26C659DF00BAC206 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6800E3AF26C659D800BAC206 /* Project object */;
+}
