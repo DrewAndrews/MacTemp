@@ -17,6 +17,11 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     statusItem = [[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength];
     
+    menu = [[NSMenu alloc] initWithTitle:@"Menu"];
+    NSMenuItem *quitButton = [[NSMenuItem alloc] initWithTitle:@"Quit" action:@selector(quitApp) keyEquivalent:@"q"];
+    [menu addItem:quitButton];
+    
+    [statusItem setMenu:menu];
     [NSTimer scheduledTimerWithTimeInterval:5 target:self selector:@selector(temp:) userInfo:nil repeats:YES];
 }
 
@@ -32,5 +37,9 @@
     return temperature;
 }
 
+- (void)quitApp
+{
+    [[NSApplication sharedApplication] terminate:nil];
+}
 
 @end
