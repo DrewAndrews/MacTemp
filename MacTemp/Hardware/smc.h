@@ -93,7 +93,6 @@ kern_return_t SMCOpen(void);
 kern_return_t SMCClose(void);
 
 double SMCGetTemperature(char* key);
-double convertToFahrenheit(double celsius);
 
 kern_return_t SMCSetFanRpm(char* key, int rpm);
 int SMCGetFanRpm(char* key);

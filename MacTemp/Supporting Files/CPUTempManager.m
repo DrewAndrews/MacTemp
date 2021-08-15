@@ -12,7 +12,6 @@ double calculate() {
     SMCOpen();
     double temperature = SMCGetTemperature(SMC_KEY_CPU_TEMP);
     SMCClose();
-    temperature = convertToFahrenheit(temperature);
     return temperature;
 }
 
